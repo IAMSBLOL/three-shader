@@ -66,6 +66,14 @@ const plugins = [
     libraryDirectory: 'es',
     style: true
   }],
+  [
+    'import',
+    {
+      libraryName: 'zarm',
+      style: 'css'
+    },
+    'unique-name'
+  ],
   // 默认开启这个热更新
   isEnvDevelopment && require.resolve('react-refresh/babel'),
   isEnvProduction && [
