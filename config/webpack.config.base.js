@@ -214,12 +214,21 @@ module.exports = function (webpackEnv) {
               },
             },
             {
+              test: /\.(md|glsl)$/,
+              use: [
+                {
+                  loader: 'raw-loader'
+                }
+              ]
+            },
+            {
               loader: require.resolve('file-loader'),
               exclude: [/\.(js|mjs|jsx|ts|tsx)$/, /\.html$/, /\.json$/],
               options: {
                 name: 'static/media/[name].[hash:8].[ext]',
               },
             },
+
           ]
         }
       ]
