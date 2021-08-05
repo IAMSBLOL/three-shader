@@ -49,6 +49,7 @@ const Home = (): JSX.Element => {
       );
     })
     console.log('initMesh', skybox)
+
     const geometry = new THREE.SphereGeometry(4, 64, 32);
     geometry.translate(0, 0, -150)
     // const material = new THREE.MeshBasicMaterial({ color: 0xffff00, side: THREE.BackSide });
@@ -104,13 +105,13 @@ const Home = (): JSX.Element => {
           camera.current = new THREE.PerspectiveCamera(
             45,
             window.innerWidth / window.innerHeight,
-            0.1,
+            1,
             1000
           );
 
           scene.current = new THREE.Scene();
 
-          await initMesh('/1562945313343.jpg')
+          await initMesh('/place.jpg')
 
           // window.addEventListener('resize', handleResize);
           handleResize();
