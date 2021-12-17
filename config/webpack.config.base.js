@@ -30,6 +30,7 @@ const reactRefreshOverlayEntry = require.resolve(
 );
 
 // const babelrc = fs.readFileSync();
+console.log(paths.publicUrlOrPath, paths.publicUrlOrPath)
 
 module.exports = function (webpackEnv) {
   const isEnvProduction = webpackEnv === 'production';
