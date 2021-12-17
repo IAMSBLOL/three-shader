@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e5c4ea71.css",
+    "main.js": "/static/js/main.d6eb12ab.js",
+    "runtime-main.js": "/static/js/runtime-main.adadd0a9.js",
+    "static/css/263.8a010347.chunk.css": "/static/css/263.8a010347.chunk.css",
+    "static/js/263.c6365bea.chunk.js": "/static/js/263.c6365bea.chunk.js",
+    "static/css/816.43f64e47.chunk.css": "/static/css/816.43f64e47.chunk.css",
+    "static/js/816.f278f17c.chunk.js": "/static/js/816.f278f17c.chunk.js",
+    "static/css/348.52d5e39d.chunk.css": "/static/css/348.52d5e39d.chunk.css",
+    "static/js/348.857c91da.chunk.js": "/static/js/348.857c91da.chunk.js",
+    "static/js/947.caaa07f4.chunk.js": "/static/js/947.caaa07f4.chunk.js",
+    "static/css/910.f2ffd5fc.css": "/static/css/910.f2ffd5fc.css",
+    "static/js/910.2f5c4e2c.js": "/static/js/910.2f5c4e2c.js",
+    "index.html": "/index.html",
+    "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "/static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;.1feff74f.bin"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adadd0a9.js",
+    "static/css/910.f2ffd5fc.css",
+    "static/js/910.2f5c4e2c.js",
+    "static/css/main.e5c4ea71.css",
+    "static/js/main.d6eb12ab.js"
+  ]
+}
