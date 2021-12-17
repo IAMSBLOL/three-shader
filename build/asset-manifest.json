@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/three-shader-/build/static/css/main.e5c4ea71.css",
-    "main.js": "/three-shader-/build/static/js/main.d6eb12ab.js",
-    "runtime-main.js": "/three-shader-/build/static/js/runtime-main.68651eb2.js",
-    "static/css/263.8a010347.chunk.css": "/three-shader-/build/static/css/263.8a010347.chunk.css",
-    "static/js/263.c6365bea.chunk.js": "/three-shader-/build/static/js/263.c6365bea.chunk.js",
-    "static/css/816.43f64e47.chunk.css": "/three-shader-/build/static/css/816.43f64e47.chunk.css",
-    "static/js/816.f278f17c.chunk.js": "/three-shader-/build/static/js/816.f278f17c.chunk.js",
-    "static/css/348.52d5e39d.chunk.css": "/three-shader-/build/static/css/348.52d5e39d.chunk.css",
-    "static/js/348.857c91da.chunk.js": "/three-shader-/build/static/js/348.857c91da.chunk.js",
-    "static/js/947.caaa07f4.chunk.js": "/three-shader-/build/static/js/947.caaa07f4.chunk.js",
-    "static/css/910.f2ffd5fc.css": "/three-shader-/build/static/css/910.f2ffd5fc.css",
-    "static/js/910.e1144c21.js": "/three-shader-/build/static/js/910.e1144c21.js",
-    "index.html": "/three-shader-/build/index.html",
-    "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "/three-shader-/build/static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;.1feff74f.bin"
+    "main.css": "/build/static/css/main.e5c4ea71.css",
+    "main.js": "/build/static/js/main.d6eb12ab.js",
+    "runtime-main.js": "/build/static/js/runtime-main.ca9a5aec.js",
+    "static/css/263.8a010347.chunk.css": "/build/static/css/263.8a010347.chunk.css",
+    "static/js/263.c6365bea.chunk.js": "/build/static/js/263.c6365bea.chunk.js",
+    "static/css/816.43f64e47.chunk.css": "/build/static/css/816.43f64e47.chunk.css",
+    "static/js/816.f278f17c.chunk.js": "/build/static/js/816.f278f17c.chunk.js",
+    "static/css/348.52d5e39d.chunk.css": "/build/static/css/348.52d5e39d.chunk.css",
+    "static/js/348.857c91da.chunk.js": "/build/static/js/348.857c91da.chunk.js",
+    "static/js/947.caaa07f4.chunk.js": "/build/static/js/947.caaa07f4.chunk.js",
+    "static/css/910.f2ffd5fc.css": "/build/static/css/910.f2ffd5fc.css",
+    "static/js/910.5835d881.js": "/build/static/js/910.5835d881.js",
+    "index.html": "/build/index.html",
+    "static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;": "/build/static/media/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;.1feff74f.bin"
   },
   "entrypoints": [
-    "static/js/runtime-main.68651eb2.js",
+    "static/js/runtime-main.ca9a5aec.js",
     "static/css/910.f2ffd5fc.css",
-    "static/js/910.e1144c21.js",
+    "static/js/910.5835d881.js",
     "static/css/main.e5c4ea71.css",
     "static/js/main.d6eb12ab.js"
   ]
