@@ -1,0 +1,2 @@
+/*! For license information please see 263.c6365bea.chunk.js.LICENSE.txt */
+(("undefined"!==typeof self?self:this).webpackChunkreact_cli=("undefined"!==typeof self?self:this).webpackChunkreact_cli||[]).push([[263],{5263:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return i}});var a=n(7313),u=n(3830),c=n(114),i=function(e){var t=e.route,n=e.location.pathname;return["/app"].includes(n)?a.createElement(u.l_,{to:"/404"}):a.createElement("div",{className:"app___2u6qS",style:{width:"100%",height:"100%"}},(0,c.H)(t.routes))}}}]);
