@@ -1,19 +1,8 @@
 # react cli
 
 
-## 集成了哪些特性
-1. react17、readux、saga、router、antd
-2. eslint 本地运行时 + 编译时
-3. babel （除了个别提案感觉用起来会坑队友，基本都添加了）
-4. webpack5
-5. CICD (自动化部署这一步暂时没空搞，最好还是jekins，不然需要中间服务管理tag)
-6. docker
-7. css module
-8. env（参考cra）
-9. ts + js (可以混合开发，喜欢用啥不强制要求)
-10. 飞书机器人
-11. 热更新
-12. 待补充...
+## 在线发牌
+[Create React App](https://iamsblol.github.io/three-shader-/build/index.html)
 
 ### `yarn start`
 
