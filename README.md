@@ -2,7 +2,7 @@
 
 
 ## 在线发牌
-[查看demo](https://iamsblol.github.io/three-shader-/build/index.html)
+[查看demo](https://iamsblol.github.io/three-shader)
 
 ### `yarn start`
 
