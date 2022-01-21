@@ -82,6 +82,11 @@ const plugins = [
     {
       removeImport: true,
     },
-  ]
+  ],
+  isEnvProduction && ['babel-plugin-clean-code', {
+    clearConsole: true,
+    consoleLevel: ['log', 'error', 'info', 'warn'],
+    clearDebugger: true,
+  }]
 ].filter(Boolean)
 module.exports = { presets, plugins };

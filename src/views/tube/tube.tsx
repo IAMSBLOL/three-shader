@@ -31,6 +31,10 @@ const Tube = () => {
         scene.current.add(helper);
         // camera.current.position.setY(15)
 
+        const spotLight = new THREE.SpotLight('#fff');
+        spotLight.position.set(40, 60, 10);
+        scene.current.add(spotLight);
+
         const loader = new THREE.TextureLoader();
         const skybox: any = await new Promise(function (resolve, reject) {
           loader.load(
@@ -52,6 +56,7 @@ const Tube = () => {
         function animate () {
           renderer.current.render(scene.current, camera.current);
           if (skybox) skybox.offset.x -= 0.001;
+
           requestAnimationFrame(animate)
         }
         animate()

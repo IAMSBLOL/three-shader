@@ -60,6 +60,7 @@ module.exports = {
   publicUrlOrPath,
   appBabelrc: resolveApp('babel.config.js'),
   appEslintlrc: resolveApp('.eslintrc'),
+  resolveApp
 };
 
 module.exports.moduleFileExtensions = moduleFileExtensions;

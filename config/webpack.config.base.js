@@ -95,6 +95,10 @@ module.exports = function (webpackEnv) {
     },
     bail: isEnvProduction,
     resolve: {
+      alias: {
+        '@api': paths.resolveApp('src/net'),
+        '@src': paths.appSrc,
+      },
       extensions: paths.moduleFileExtensions
         .map(ext => `.${ext}`)
         .filter(ext => useTypeScript || !ext.includes('ts')),
