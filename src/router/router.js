@@ -4,7 +4,7 @@ import React from 'react'
 import loadable from '@loadable/component'
 import { Redirect } from 'react-router-dom'
 import {
-  APP_TEST, APP_TUBE, APP_HOME, APP_LEARN
+  APP_TEST, APP_TUBE, APP_HOME, APP_LEARN, APP_ALIYUN
 } from './pathNames'
 
 const routes = [
@@ -34,6 +34,10 @@ const routes = [
       {
         path: APP_LEARN,
         component: loadable(() => import('../views/Learn')),
+      },
+      {
+        path: APP_ALIYUN,
+        component: loadable(() => import('../views/Aliyun')),
       },
     ]
   }

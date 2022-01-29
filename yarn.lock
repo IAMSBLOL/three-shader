@@ -1854,6 +1854,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.15.4", "@babel/runtime@^7.16.7":
+  version "7.16.7"
+  resolved "https://registry.npmmirror.com/@babel/runtime/download/@babel/runtime-7.16.7.tgz#03ff99f64106588c9c403c6ecb8c3bafbbdff1fa"
+  integrity sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.7.2":
   version "7.14.5"
   resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.14.5.tgz?cache=0&sync_timestamp=1623280395479&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.14.5.tgz#665450911c6031af38f81db530f387ec04cd9a98"
@@ -1983,6 +1990,11 @@
     js-yaml "^3.13.1"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
+
+"@fontsource/roboto@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.npmmirror.com/@fontsource/roboto/download/@fontsource/roboto-4.5.1.tgz#63f7b783f755d8f6727eb60198627e7e1be3ac20"
+  integrity sha1-Y/e3g/dV2PZyfrYBmGJ+fhvjrCA=
 
 "@loadable/component@^5.15.0":
   version "5.15.0"
@@ -2174,6 +2186,16 @@
   version "7.1.16"
   resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.1.16.tgz#0fbd04c2500c12105494c83d4a3e45c084e3cb21"
   integrity sha512-f/FKzIrZwZk7YEO9E1yoxIuDNRiDducxkFlkw/GNMGEnK9n4K8wJzlJBghpSuOVDgEUHoDkDF7Gi9lHNQR4siw==
+  dependencies:
+    "@types/hoist-non-react-statics" "^3.3.0"
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+    redux "^4.0.0"
+
+"@types/react-redux@^7.1.20":
+  version "7.1.22"
+  resolved "https://registry.npmmirror.com/@types/react-redux/download/@types/react-redux-7.1.22.tgz#0eab76a37ef477cc4b53665aeaf29cb60631b72a"
+  integrity sha512-GxIA1kM7ClU73I6wg9IRTVwSO9GS+SAKZKe0Enj+82HMU6aoESFU2HNAdNi3+J53IaOHPiUfT3kSG4L828joDQ==
   dependencies:
     "@types/hoist-non-react-statics" "^3.3.0"
     "@types/react" "*"
@@ -3341,6 +3363,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classcat@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.npmmirror.com/classcat/download/classcat-5.0.3.tgz#38eaa0ec6eb1b10faf101bbcef2afb319c23c17b"
+  integrity sha1-OOqg7G6xsQ+vEBu87yr7MZwjwXs=
+
 classnames@2.x, classnames@^2.2.1, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
@@ -3370,6 +3397,11 @@ clone-deep@^4.0.1:
     is-plain-object "^2.0.4"
     kind-of "^6.0.2"
     shallow-clone "^3.0.0"
+
+clsx@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.nlark.com/clsx/download/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha1-mLMTT5q73yOyZjSRrOE8XAOnMYg=
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -3866,6 +3898,68 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
   integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
 
+"d3-color@1 - 3":
+  version "3.0.1"
+  resolved "https://registry.nlark.com/d3-color/download/d3-color-3.0.1.tgz#03316e595955d1fcd39d9f3610ad41bb90194d0a"
+  integrity sha1-AzFuWVlV0fzTnZ82EK1Bu5AZTQo=
+
+"d3-dispatch@1 - 3":
+  version "3.0.1"
+  resolved "https://registry.nlark.com/d3-dispatch/download/d3-dispatch-3.0.1.tgz#5fc75284e9c2375c36c839411a0cf550cbfc4d5e"
+  integrity sha1-X8dShOnCN1w2yDlBGgz1UMv8TV4=
+
+"d3-drag@2 - 3":
+  version "3.0.0"
+  resolved "https://registry.nlark.com/d3-drag/download/d3-drag-3.0.0.tgz#994aae9cd23c719f53b5e10e3a0a6108c69607ba"
+  integrity sha1-mUqunNI8cZ9TteEOOgphCMaWB7o=
+  dependencies:
+    d3-dispatch "1 - 3"
+    d3-selection "3"
+
+"d3-ease@1 - 3":
+  version "3.0.1"
+  resolved "https://registry.nlark.com/d3-ease/download/d3-ease-3.0.1.tgz#9658ac38a2140d59d346160f1f6c30fda0bd12f4"
+  integrity sha1-llisOKIUDVnTRhYPH2ww/aC9EvQ=
+
+"d3-interpolate@1 - 3":
+  version "3.0.1"
+  resolved "https://registry.nlark.com/d3-interpolate/download/d3-interpolate-3.0.1.tgz#3c47aa5b32c5b3dfb56ef3fd4342078a632b400d"
+  integrity sha1-PEeqWzLFs9+1bvP9Q0IHimMrQA0=
+  dependencies:
+    d3-color "1 - 3"
+
+"d3-selection@2 - 3", d3-selection@3, d3-selection@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/d3-selection/download/d3-selection-3.0.0.tgz#c25338207efa72cc5b9bd1458a1a41901f1e1b31"
+  integrity sha1-wlM4IH76csxbm9FFihpBkB8eGzE=
+
+"d3-timer@1 - 3":
+  version "3.0.1"
+  resolved "https://registry.nlark.com/d3-timer/download/d3-timer-3.0.1.tgz#6284d2a2708285b1abb7e201eda4380af35e63b0"
+  integrity sha1-YoTSonCChbGrt+IB7aQ4CvNeY7A=
+
+"d3-transition@2 - 3":
+  version "3.0.1"
+  resolved "https://registry.nlark.com/d3-transition/download/d3-transition-3.0.1.tgz#6869fdde1448868077fdd5989200cb61b2a1645f"
+  integrity sha1-aGn93hRIhoB3/dWYkgDLYbKhZF8=
+  dependencies:
+    d3-color "1 - 3"
+    d3-dispatch "1 - 3"
+    d3-ease "1 - 3"
+    d3-interpolate "1 - 3"
+    d3-timer "1 - 3"
+
+d3-zoom@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/d3-zoom/download/d3-zoom-3.0.0.tgz#d13f4165c73217ffeaa54295cd6969b3e7aee8f3"
+  integrity sha1-0T9BZccyF//qpUKVzWlps+eu6PM=
+  dependencies:
+    d3-dispatch "1 - 3"
+    d3-drag "2 - 3"
+    d3-interpolate "1 - 3"
+    d3-selection "2 - 3"
+    d3-transition "2 - 3"
+
 date-fns@^2.15.0:
   version "2.22.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.22.1.tgz#1e5af959831ebb1d82992bf67b765052d8f0efc4"
@@ -4169,6 +4263,11 @@ electron-to-chromium@^1.3.723:
   version "1.3.742"
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.742.tgz"
   integrity sha512-ihL14knI9FikJmH2XUIDdZFWJxvr14rPSdOhJ7PpS27xbz8qmaRwCwyg/bmFwjWKmWK9QyamiCZVCvXm5CH//Q==
+
+elkjs@^0.7.3-dev:
+  version "0.7.3-dev"
+  resolved "https://registry.nlark.com/elkjs/download/elkjs-0.7.3-dev.tgz#baaf9ff607576e1ee043a23ac4b4a3b09a21c3e2"
+  integrity sha1-uq+f9gdXbh7gQ6I6xLSjsJohw+I=
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -4963,6 +5062,16 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
+
+gddi-app-canvas@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.npmmirror.com/gddi-app-canvas/download/gddi-app-canvas-0.1.4.tgz#f26f447dc4cb7453cc7ee38ccc8db78233a7ff68"
+  integrity sha512-31ZIGT50+tBtKzwvsuy9Vrh2yjXbe5gkT4wKqIOP7Hh0B1mS3beS365prCkemQMOG2Y2VXTPvjlSjvNpQBlIQQ==
+  dependencies:
+    "@fontsource/roboto" "^4.5.1"
+    elkjs "^0.7.3-dev"
+    lodash "^4.17.21"
+    react-flow-renderer "^9.7.1"
 
 generic-names@^2.0.1:
   version "2.0.1"
@@ -7889,6 +7998,15 @@ prompts@2.4.0:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
+prop-types@^15.6.0:
+  version "15.8.1"
+  resolved "https://registry.npmmirror.com/prop-types/download/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
@@ -8397,15 +8515,42 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-draggable@^4.4.4:
+  version "4.4.4"
+  resolved "https://registry.npmmirror.com/react-draggable/download/react-draggable-4.4.4.tgz#5b26d9996be63d32d285a426f41055de87e59b2f"
+  integrity sha1-WybZmWvmPTLShaQm9BBV3oflmy8=
+  dependencies:
+    clsx "^1.1.1"
+    prop-types "^15.6.0"
+
 react-error-overlay@^6.0.9:
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
+react-flow-renderer@^9.7.1:
+  version "9.7.3"
+  resolved "https://registry.npmmirror.com/react-flow-renderer/download/react-flow-renderer-9.7.3.tgz#56779ef5f4590edfabca380dd90e62bd37375a83"
+  integrity sha512-yMSGdZ2mtpiNsi7fGgkmMC6/q/a2LI+G4Par9zcIBWDVP5ZsujSeBpehXprPEXKtUjZTi3ToNLq0EQ5Z7/EU4Q==
+  dependencies:
+    "@babel/runtime" "^7.16.7"
+    classcat "^5.0.3"
+    d3-selection "^3.0.0"
+    d3-zoom "^3.0.0"
+    fast-deep-equal "^3.1.3"
+    react-draggable "^4.4.4"
+    react-redux "^7.2.6"
+    redux "^4.1.2"
+
 react-is@^16.12.0, react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-is@^17.0.2:
+  version "17.0.2"
+  resolved "https://registry.npmmirror.com/react-is/download/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
+  integrity sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA=
 
 react-redux@^7.2.4:
   version "7.2.4"
@@ -8418,6 +8563,18 @@ react-redux@^7.2.4:
     loose-envify "^1.4.0"
     prop-types "^15.7.2"
     react-is "^16.13.1"
+
+react-redux@^7.2.6:
+  version "7.2.6"
+  resolved "https://registry.npmmirror.com/react-redux/download/react-redux-7.2.6.tgz#49633a24fe552b5f9caf58feb8a138936ddfe9aa"
+  integrity sha512-10RPdsz0UUrRL1NZE0ejTkucnclYSgXp5q+tB5SWx2qeG2ZJQJyymgAhwKy73yiL/13btfB6fPr+rgbMAaZIAQ==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@types/react-redux" "^7.1.20"
+    hoist-non-react-statics "^3.3.2"
+    loose-envify "^1.4.0"
+    prop-types "^15.7.2"
+    react-is "^17.0.2"
 
 react-refresh@^0.10.0:
   version "0.10.0"
@@ -8546,6 +8703,13 @@ redux@^4.0.0, redux@^4.0.4:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.1.0.tgz#eb049679f2f523c379f1aff345c8612f294c88d4"
   integrity sha512-uI2dQN43zqLWCt6B/BMGRMY6db7TTY4qeHHfGeKb3EOhmOKjU3KdWvNLJyqaHRksv/ErdNH7cFZWg9jXtewy4g==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+
+redux@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.npmmirror.com/redux/download/redux-4.1.2.tgz#140f35426d99bb4729af760afcf79eaaac407104"
+  integrity sha512-SH8PglcebESbd/shgf6mii6EIoRM0zrQyjcuQ+ojmfxjTtE0z9Y8pa62iA/OJ58qjP6j27uyW4kUF4jl/jd6sw==
   dependencies:
     "@babel/runtime" "^7.9.2"
 

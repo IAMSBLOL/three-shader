@@ -34,6 +34,7 @@
     "axios": "^0.21.1",
     "connected-react-router": "^6.9.1",
     "device-orientation-manager": "^0.8.0",
+    "gddi-app-canvas": "^0.1.4",
     "less": "^4.1.1",
     "moment": "^2.29.1",
     "qs": "^6.10.1",
